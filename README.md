@@ -1,7 +1,7 @@
 <h1 align="center"> Página de Receita </h1>
 
 <p align="center">
-Esse projeto foi desenvolvido foi feito no da Rocketseat full stack 
+Esse projeto foi desenvolvido no curso Full Stack da Rocketseat!
 </p>
 
 <p align="center">
