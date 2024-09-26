@@ -1,3 +1,9 @@
+:root{
+  font-family: 'Alice';
+  line-height: 150%;
+  color: #573A37;
+}
+
 body {
   background-image: url(assets/image.jpg);
   background-size: cover;
@@ -11,8 +17,24 @@ body {
   background-color: #F0E8C2;
   border-radius: 24px;
   margin: 48px  auto;
+
+
 }
 
 img {
   border-radius: 16px;
 }
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1, h2 {
+  color: #291B1A;
+}
+
