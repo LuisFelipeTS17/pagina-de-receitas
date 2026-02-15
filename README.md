@@ -1,5 +1,7 @@
 # Pagina de Receitas
 
+![Thumbnail do projeto](assets/Thumbnail.jpg)
+
 Projeto simples de uma pagina de receita (cupcake de cafe com chantilly), feito com HTML e CSS para praticar estrutura, layout e box model.
 
 ## Tecnologias
@@ -71,4 +73,4 @@ git push -u origin main
 
 ## Autor
 
-Projeto desenvolvido por voce como pratica de HTML e CSS.
+Projeto desenvolvido na trilha Fullstack
