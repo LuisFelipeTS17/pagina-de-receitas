@@ -1,8 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  color: #291b1a;
+  font-family: Alice, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #573a37;
+}
+
 body {
   background-image: url(assets/bg-image.png);
   background-size: cover;
@@ -16,11 +22,20 @@ body {
   margin: 48px auto;
 }
 
-main h1,
-p {
-  color: #291b1a;
-}
-
 img {
   border-radius: 16px;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  color: #291b1a;
 }
