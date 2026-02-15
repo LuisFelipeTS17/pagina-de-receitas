@@ -1,9 +1,9 @@
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-  color: #291b1a;
   font-family: Alice, Helvetica, sans-serif;
   line-height: 150%;
   color: #573a37;
@@ -15,6 +15,7 @@ body {
 }
 
 #page {
+  box-sizing: border-box;
   width: 800px;
   padding: 24px;
   background-color: #f0e8c2;
@@ -25,6 +26,16 @@ body {
 img {
   border-radius: 16px;
 }
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+#about p + p {
+  margin-top: 12px;
+}
 
 h1 {
   line-height: 140%;
@@ -33,9 +44,16 @@ h1 {
 
 h2 {
   font-size: 24px;
+  padding: 4px;
 }
 
 h1,
 h2 {
+  margin-bottom: 4px;
   color: #291b1a;
+  line-height: 150%;
+}
+
+ul {
+  padding-left: 1.5rem;
 }
